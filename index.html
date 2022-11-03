@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar with vertical carousal</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="./index.html"><h1>antic's</h1></a>
+    </div>
+ 
+<section>   
+    <input type="checkbox" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+        
+    </label>
+           <!-- vertical carousal -->
+    <div class="C-carousel">
+      <div class="C-slide"><h1 class="C-slide-title C-slide-title--h1"></h1></div>
+      <div class="C-slide"><div class="C-slide-title"></div></div>
+      <div class="C-slide"><div class="C-slide-title"></div></div>
+    </div>
+    <div class="pen-controls">
+      <button class="js-change-carousel-direction" data-carousel-id="C-carousel-0">Change slider direction</button>
+    </div>
+
+       <!-- vertical carousal end-->
+    <div id="sidebarMenu">
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./index.html">CONTACT</a></li>
+            <li><a href="./index.html">Faq</a></li>
+        </ul>  
+    </div>
+</section> 
+
+<footer class="footer">
+    <p class="footer-text">&copy antics all copyright 2021</p>
+
+</footer>
+  <script src="./vslider.js"></script>
+
+ 
+</body>
+</html>
