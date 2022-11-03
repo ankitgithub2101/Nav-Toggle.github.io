@@ -331,8 +331,8 @@ body{
 	position: absolute;
 	bottom: 150px; /* change slider direction*/
 	left: 0;
-	right:0;
-	text-align:center;  
+  	right: 0;
+  	text-align: center; 
   }
   .pen-controls button {
 	border: 2px solid #000;
