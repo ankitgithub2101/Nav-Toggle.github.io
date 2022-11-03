@@ -243,6 +243,13 @@ body{
 	cursor: pointer;
 	border-radius: 50%;
   }
+
+.C-carousel--vertical .C-carousel-navigation-button--prev{
+    transform: none !important;
+    right: unset !important;
+    margin: 0 13px;
+  }
+
   .C-navigation__dot.active {
 	background: #000;
 	transform: scale(1.3);
