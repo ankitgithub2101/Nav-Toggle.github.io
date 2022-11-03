@@ -203,10 +203,10 @@ body{
 	border-radius: 0;
   }
   .C-slide:nth-child(1) {
-	background-image: url(https://source.unsplash.com/collection/190727/1400x700);
+	background-image: url(https://source.unsplash.com/random/190727/1400x700);
   }
   .C-slide:nth-child(2) {
-    background-image: url(https://source.unsplash.com/collection/190727/1400x700);
+    background-image: url(https://source.unsplash.com/random/190727/1400x700);
   }
   .C-slide:nth-child(3) {
     background-image: url(https://source.unsplash.com/random/1400x700);
