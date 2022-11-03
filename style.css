@@ -147,7 +147,6 @@ body{
 }
 #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
     opacity: 0;
-
 }
 
 #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
